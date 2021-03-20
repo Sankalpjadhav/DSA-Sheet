@@ -35,6 +35,7 @@ public class NegativeElementsToOneSide {
             System.out.print(array[l]+" ");
         }
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

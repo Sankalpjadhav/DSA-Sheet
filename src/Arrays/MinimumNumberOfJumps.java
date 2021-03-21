@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
 Minimum jumps required to move to end of an array
 Time complexity: O(n)
-Space complexity: O(1)
+Space complexity: O(n)
  */
 public class MinimumNumberOfJumps {
     private static int minimumJumps(int [] array){

@@ -1,6 +1,24 @@
 package LinkedList;
 import java.util.Scanner;
 /*
+Fold Of Linkedlist
+Given a singly linkedlist : l0 -> l1 -> l2 -> l3 -> l4 -> l5 -> l6 ..... -> ln-1 -> ln
+reorder it : l0 -> ln -> l1 -> ln-1 -> l2 -> ln-2 -> l3 -> ln-3 -> .....
+Sample Input
+10
+5
+1
+4
+6
+9
+9
+6
+4
+1
+5
+Sample Output
+5 5 1 1 4 4 6 6 9 9
+
 Time complexity: O(n)
 Space complexity: O(1)
 */

@@ -38,6 +38,9 @@ public class MergeTwoSortedLinkedList {
     }
 
     private static ListNode mergeTwoSortedList(ListNode head1, ListNode head2){
+        if(head1==null || head2==null){
+            return head1!=null?head1:head2;
+        }
         ListNode dummy = new ListNode(-1);
         ListNode prev = dummy;
 

@@ -15,6 +15,9 @@ Sample Input:
 7
 Sample Output:
 11 14 5 9 2 5 1 1 10 10 1 3
+
+Time complexity: O(n)
+Space complexity: O(1)
 */
 public class ReverseNodesInKGroups {
     private static class ListNode{

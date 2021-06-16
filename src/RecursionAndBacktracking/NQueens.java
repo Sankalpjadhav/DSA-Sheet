@@ -6,10 +6,10 @@ public class NQueens {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int [][] arr = new int[n][n];
-        nQueens(arr, "", 0);
+        nQueens(arr, 0);
     }
 
-    private static void nQueens(int[][] arr, String answer, int row){
+    private static void nQueens(int[][] arr, int row){
         if(row==arr.length){
             for(int i=0;i<arr.length;i++){
                 for(int j=0;j<arr.length;j++){
@@ -24,7 +24,7 @@ public class NQueens {
         for(int col=0;col<arr.length;col++){
             if(isQueenSafe(arr, row, col)){
                 arr[row][col]=1;
-                nQueens(arr, answer+row+"-"+col+" ",row+1);
+                nQueens(arr,row+1);
                 arr[row][col]=0;
             }
         }
